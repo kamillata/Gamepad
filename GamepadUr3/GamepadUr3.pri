@@ -4,12 +4,11 @@ CURRENT_DIR = $$PWD
 
 CONFIG += c++11
 
-SOURCES +=	$$CURRENT_DIR/nazwa_pliku1.cpp 
-$$CURRENT_DIR/nazwa_pliku2.cpp 
-$$CURRENT_DIR/nazwa_pliku3.cpp
+SOURCES +=	$$CURRENT_DIR/cgamepad.cpp 
+$$CURRENT_DIR/main.cpp 
+$$CURRENT_DIR/mainwindow.cpp
 
-HEADERS +=	$$CURRENT_DIR/nazwa_pliku1.h 
-$$CURRENT_DIR//nazwa_pliku2.h 
-$$CURRENT_DIR//nazwa_pliku3.h
-FORMS += $$CURRENT_DIR/nazwa_formularza1.ui 
-$$CURRENT_DIR/nazwa_formularza2.ui
+HEADERS +=	$$CURRENT_DIR/cgamepad.h 
+$$CURRENT_DIR//mainwindow.h 
+
+FORMS += $$CURRENT_DIR/mainwindow.ui 
